@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    box-shadow: 0 0 80px #EFDBCF;
+}
+
+.nav-start img{
+    align-items: center;
+    color: #CB997E;
+    width: 200px;
+}
+
+.navbar .nav-middel{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar .nav-middel .nav-imgs{
+    list-style: none;
+    font-size: 12px;
+    text-align: center;
+    transition: 1.5px;
+}
+
+.navbar .nav-middel .nav-imgs h2{
+    position: relative;
+    bottom: 40px;
+}
+
+.navbar .nav-end button{
+    padding: 20px 30px;
+    border-radius: 25px;
+    transition: 0.s linear;
+    border: none;
+    background-color: #CB997E;
+}
+
+/* .section-one-from */
+.section-one-from{
+    height: 400px;
+    width:800px;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    border-radius: 10px;
+    margin-top: 400px;
+    background-color: #92927C;
+}
+
+.Flight-frome{
+    color: #2F2F2F;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+    font-family:serif;
+}
+
+/* .sub-from */
+.sub-from{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+/* Departure */
+.Departure{
+    font-size: 22px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: serif;
+    text-align: center;
+    background-color: white;
+}
+
+/* Return */
+.Return{
+    font-size: 22px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: serif;
+    text-align: center;
+    background-color: white;
+}
+
+.placeholder{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.placeholder-from{
+    height: 30px;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.placeholder-to{
+    height: 30px;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.Dates{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.dates-one{
+    height: 30px;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 700px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.dates-two{
+    height: 30px;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 700px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.button-explore{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.button-explore button{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #2F2F2F;
+    border-radius: 25px;
+    padding: 20px 35px;
+    border: none;
+    background-color: #CB997E;
+}
+
+.button-explore:hover{
+    border-color: #2F2F2F;
+}
+
+.Flight-frome-text{
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    margin-left: 350px;
+}
+
+/* frome-end */
+.frome-end{
+    height: 60px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #EFDBCF;
+}
+
+.Home{
+    padding: 5px 15px;
+    background-color: white;
+}
+
+.sign-in{
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 1px solid #fff;
+    background-color: #CB997E;
+    font-family: sans-serif;
+}

@@ -1,0 +1,61 @@
+.About-us-main{
+    display: flex;
+    justify-content: center;
+    background-color: #92927C;
+    display: grid;
+}
+
+.About-us{
+    width: 900px;
+    color: #fff;
+}
+
+.About-us h2 {
+    color: #2F2F2F;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.About-us h3{
+    color: #2F2F2F;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.ceo-text{
+    font-family: sans-serif;
+}
+
+.footer-mean{
+    height: 200px;
+    border-radius: 5px;
+    background-color:#2F2F2F;
+}
+
+.Global-Getway {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding:20px 0px;
+}
+
+.footer-list{
+    display: flex;
+    color: #fff;
+    font-weight: 300;
+    font-family: sans-serif;
+    list-style: none;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.copyright{
+    color: #fff;
+    margin-left: 30px;
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+    justify-content: first baseline;
+    margin: 10px 15px 20px 25px 30px;
+    box-shadow: 2px 2px 2px 2px solid rgb(237, 160, 18);
+}  
